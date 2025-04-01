@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .skills, .projects, .contact {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .projects .project {
+            margin: 10px 0;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Olá, eu sou [Seu Nome]</h1>
+    <p>Desenvolvedor(a) | Designer | Criativo(a)</p>
+</header>
+
+<nav>
+    <a href="#about">Sobre</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#projects">Projetos</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Eu sou [Seu Nome], um apaixonado por tecnologia e design. Trabalho como [sua profissão, ex: desenvolvedor de software] e adoro criar soluções criativas para problemas complexos. Tenho experiência em [listar algumas áreas de expertise].</p>
+    <p>Com uma forte paixão por [exemplo: design de interfaces, desenvolvimento web, etc.], estou sempre aprendendo novas ferramentas e aprimorando minhas habilidades. Meu objetivo é continuar crescendo como profissional e colaborar em projetos que façam a diferença.</p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Habilidades</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Angular, Vue.js</li>
+        <li>Python, Node.js</li>
+        <li>Desenvolvimento de APIs</li>
+        <li>Design de Interfaces (UI/UX)</li>
+        <li>Banco de Dados (SQL, MongoDB)</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projetos</h2>
+    <div class="project">
+        <h3>Projeto 1: [Nome do Projeto]</h3>
+        <p>Descrição do projeto e tecnologias usadas. <a href="#">Ver mais</a></p>
+    </div>
+    <div class="project">
+        <h3>Projeto 2: [Nome do Projeto]</h3>
+        <p>Descrição do projeto e tecnologias usadas. <a href="#">Ver mais</a></p>
+    </div>
+    <!-- Adicione mais projetos conforme necessário -->
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contato</h2>
+    <p>Se você deseja entrar em contato comigo, por favor, preencha o formulário abaixo:</p>
+    <form action="submit_form.php" method="POST">
+        <input type="text" name="name" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 [Seu Nome] - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
